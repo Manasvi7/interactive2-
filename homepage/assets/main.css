@@ -1,0 +1,28 @@
+*{
+	font-family: courier;
+	font-size: 10pt;
+	background-color: black;
+	color: #FF8C00;
+	line-height: none;
+	
+}
+
+
+
+h1{
+	font-size: 15pt;
+
+}
+
+h2{
+	font-size: 11pt;
+	color: 		#778899;
+	padding-left: 15px;
+}
+
+a{
+	color: 	#708090;
+	padding-left: 30px;
+}
+
+
