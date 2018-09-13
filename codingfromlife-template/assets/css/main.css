@@ -1,0 +1,149 @@
+body {
+	background: #cccccc;
+}
+
+.stage {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: #FAF0E6;
+	position: relative;
+}
+
+/*#triangle {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	/*border-bottom: 150px solid yellow;*/
+	/*clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+	position: absolute;
+	top: 203px;
+	left: 270px;*/
+/*}*/
+
+#square {
+	width: 150px;
+	height: 150px;
+	background: red;
+	border-radius: 50px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	top: 350px;
+	left: 270px;
+	position: absolute;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#line {
+	width: 30px;
+	height: 353px;
+	background: green;
+	clip-path: polygon(41% 100%, 65% 49%, 80% 40%, 100% 36%, 100% 21%, 74% 23%, 58% 34%, 43% 47%, 36% 60%, 31% 79%, 27% 92%, 26% 100%);
+	top: 0px;
+	left: 350px;
+	transform: rotate(7deg);
+	position: absolute;
+
+}
+
+#clip {
+	width: 100px;
+	height: 100px;
+	background: #FF69B4;
+	clip-path: polygon(65% 53%, 80% 10%, 100% 5%, 80% 21%, 84% 66%, 65% 54%, 22% 96%, 16% 69%, 0 0, 42% 55%);
+	top: 350px;
+	left: 650px;
+	position: absolute;
+
+}
+
+
+
+#circle {
+	width: 65px;
+	height: 75px;
+	background: #FF8C00;
+	border-radius: 150px;
+	top: 410px;
+	left: 570px;
+	position: absolute;
+}
+
+#circle-2{
+	width: 165px;
+	height: 167px;
+	background: #FFFF00;
+	border-radius: 150px;
+	top: 22px;
+	left: 358px;
+	clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+	position: absolute;
+
+}
+
+#circle-3{
+	width: 69px;
+	height: 69px;
+	background: brown;
+	border-radius: 150px;
+	top: 160px;
+	left: 800px;
+	position: fixed;
+
+}
+
+/*#circle-4{
+	width: 50px;
+	height: 50px;
+	background: black;
+	border-radius: 150px;
+	top: 170px;
+	left: 582px;
+	position: fixed;
+
+}
+*/
+
+
+
+
+
+
+
+
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
