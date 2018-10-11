@@ -78,12 +78,20 @@ $(document).ready(function(){
 	});
 
 	$('#button-21').click(function() {
-		$(this).animate({
-			opacity: 100,
-			marginLeft: '280px',
-			fontSize: '24px',
-			borderWidth: '10px'
-		}, 200 );
+		$(this).toggleClass('shadow');
+	});
+
+	// $('#button-21').click(function() {
+	// 	$(this).animate({
+	// 		opacity: 100,
+	// 		marginLeft: '280px',
+	// 		fontSize: '24px',
+	// 		borderWidth: '10px'
+	// 	}, 200 );
+	// });
+
+	$('#button-22').click(function() {
+		$('#button-21').toggleClass('background-color');
 	});
 
 	$('#button-23').click(function() {

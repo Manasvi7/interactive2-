@@ -188,8 +188,8 @@ clip-path: polygon(0% 15%, 50% 49%, 15% 0%, 85% 0%, 58% 51%, 100% 15%, 100% 85%,
 }
 
 
-#button-21.background-color {
-	background: #00a651;
+#button-21.shadow {
+	box-shadow: 5px 5px 7px black, 0 0 25px orange, 0 0 5px orange
 }
 
 .item22 {
