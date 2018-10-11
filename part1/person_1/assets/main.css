@@ -1,0 +1,269 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* container */
+
+.container {
+	position: relative;
+}
+
+/* items */
+
+.item {
+	height: 250px;
+	width: 250px;
+	background: black;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+	transition: all 500ms ease;
+
+	cursor: pointer;
+}
+
+#button-1.background-color {
+	background: #4cc5dd;
+}
+
+#button-2.background-color {
+	background: #4cc5dd;
+}
+
+#button-3.background-color {
+	background: #4cc5dd; /*blue*/
+}
+
+#button-4.background-color {
+	background: #ed3e2d;
+}
+
+.item5 {
+	height: 250px;
+	width: 250px;
+	background: #ed3e2d;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+	transition: all 500ms ease;
+
+	cursor: pointer;
+}
+
+#button-5.background-color {
+	background: #ed3e2d; /*red*/
+}
+
+#button-6.background-color {
+	background: #ffde17; /*yellow*/
+}
+
+#button-7.background-color {
+	background: #ed3e2d;
+}
+
+.item8 {
+	height: 250px;
+	width: 250px;
+	background: #ffde17;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+	transition: all 2000ms ease;
+
+	cursor: pointer;
+}
+
+#button-8.transform {
+clip-path: polygon(0% 15%, 50% 49%, 15% 0%, 85% 0%, 58% 51%, 100% 15%, 100% 85%, 58% 59%, 85% 100%, 15% 100%, 50% 58%, 0% 85%);
+}
+
+#button-9.background-color {
+	background: #4cc5dd;
+}
+
+.item10 {
+	height: 250px;
+	width: 250px;
+	background: #ed3e2d;
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+	transition: all 500ms ease;
+
+	cursor: pointer;
+}
+
+#button-10.transform {
+	transform: rotate(180deg);
+}
+
+#button-11.background-color {
+	background: #4cc5dd;
+}
+
+#button-12.background-color {
+	background: #4cc5dd;
+}
+
+#button-13.background-color {
+	background: #4cc5dd;
+}
+
+#button-14.background-color {
+	background: #4cc5dd;
+}
+
+#button-15.background-color {
+	background: #00a651; /*green*/
+}
+
+#button-16.background-color {
+	background: #4cc5dd;
+}
+
+#button-17.background-color {
+	background: #4cc5dd;
+}
+
+.item18 {
+	height: 250px;
+	width: 250px;
+	background: #00a651;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+	transition: all 500ms ease;
+
+	cursor: pointer;
+}
+
+#button-18::after {
+	content: 'Hi!';
+	color: #00a651;
+}
+
+#button-18:hover::after {
+	content: 'pl__t';
+	color: white;
+	font-size: 100px;
+}
+
+#button-19.background-color {
+	background: #4cc5dd;
+}
+
+#button-20.background-color {
+	background: #00a651;
+}
+
+.item21 {
+	height: 250px;
+	width: 250px;
+	background: #754c29; /*brown*/
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+	transition: all 500ms ease;
+
+	cursor: pointer;
+}
+
+
+#button-21.background-color {
+	background: #00a651;
+}
+
+.item22 {
+	height: 250px;
+	width: 250px;
+	background: #754c29; /*brown*/
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+	transition: all 500ms ease;
+
+	cursor: pointer;
+}
+
+#button-22:hover {
+	filter: blur(50px);
+}
+
+#button-23.background-color {
+	background: #4cc5dd;
+}
+
+#button-24.background-color {
+	background: #754c29;
+}
+
+#button-25.background-color {
+	background: #4cc5dd;
+}
+
+.item26 {
+	height: 250px;
+	width: 250px;
+	background: #754c29; /*brown*/
+	color: yellow;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+	transition: all 500ms ease;
+
+	cursor: pointer;
+}
+
+#button-26.transform {
+ transform: scale(2.5);
+ opacity: 10%;
+}
+
+
+
+
+/* example button 1 */
+
+/* #button-1 {
+	background-color: #4cc5dd;:
+} */
+
+/* #button-1:active {
+	background: pink;
+	opacity: 1;
+} */
+
+/* example button 2 */
+
+
+
+/* example button 3 is changed only via js */
+
+/* example button 4 */
+
+/* example button 5 */
+/* .circle {
+	border-radius: 125px;
+} */

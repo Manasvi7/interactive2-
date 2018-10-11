@@ -1,0 +1,258 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* container */
+
+.container {
+	position: relative;
+}
+
+/* items */
+
+.item {
+	height: 250px;
+	width: 250px;
+	background: black;
+	color: orange;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: left;
+	transition: all 500ms ease;
+
+	cursor: pointer;
+}
+
+/* example button 1 */
+
+/*#button-1:hover {
+	transform: rotate(90deg) scale(1.5);
+	opacity: .3;
+}
+
+#button-1:active {
+	background: pink;
+	opacity: 1;
+}*/
+
+#button-1.background-color{
+	background-color: #4cc5dd;
+}
+
+#button-2.background-color{
+	background-color: #4cc5dd;
+}
+
+#button-3{
+	background-color: #ed3e2d;
+}
+
+
+#button-3.transform{
+	transform: scale(-2);
+	transition: 700ms ease;
+	rotate: 45deg;
+}
+
+
+#button-4.background-color {
+	background-color: #4cc5dd;
+}
+
+#button-5{
+	background-color: #ffde17;
+}
+
+/*#button-5.transform{
+	transform: scale(-1);
+	transition: none;
+}
+*/
+
+img{
+	width: 250px;
+	height:250px;
+	display: none;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#button-6{
+	background-color: #ed3e2d;
+	transition: none;
+}
+
+#button-6.transform{
+	transform: scale(-2);
+	transition: 700ms ease;
+	rotate: 45deg;
+}
+
+#button-7.background-color {
+	background-color: #ffde17;
+}
+
+#button-8.background-color {
+	background-color: #ed3e2d;
+}
+
+#button-8.transform{
+	transform: scale(-2);
+	transition: 700ms ease;
+	rotate: 45deg;
+}
+
+#button-9.background-color {
+	background-color: #ed3e2d;
+}
+
+#button-9.transform{
+	transform: scale(-2);
+	transition: 700ms ease;
+	rotate: 45deg;
+}
+
+#button-10.background-color{
+	background-color: #4cc5dd;
+}
+
+#button-11{
+	background-color: #00a651;
+}
+
+#button-11.leaf{
+	clip-path: ellipse(16% 50% at 50% 50%);
+	transform: rotate(45deg);
+}
+
+#button-12.background-color{
+	background-color: #4cc5dd;
+}
+
+#button-13.background-color{
+	background-color: #00a651;
+}
+
+#button-14{
+	background-color: #00a651;
+}
+
+
+
+#button-15.background-color {
+	background-color: #00a651;
+}
+
+#button-16.background-color{
+	background-color: #4cc5dd;
+}
+
+#button-17.background-color{
+	background-color: #4cc5dd;
+}
+
+#button-18.background-color{
+	background-color: #4cc5dd;
+}
+
+#button-19.background-color{
+	background-color: #4cc5dd;
+}
+
+#button-20.background-color{
+	background-color: #4cc5dd;
+}
+
+#button-21{
+	background-color: #754c29;
+}
+
+#button-21:hover{
+
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+#button-22.background-color {
+	background-color: #754c29;
+}
+
+#button-23.background-color {
+	background-color: #754c29;
+}
+
+#button-24.background-color{
+	background-color: #4cc5dd;
+}
+
+#button-25.background-color {
+	background-color: #754c29;
+}
+
+#button-26.background-color{
+	background-color: #4cc5dd;
+}
+
+
+/*
+/* example button 2 */
+
+/*#button-2::after {
+	content: 'this is added after the content inside the button';
+	color: white;
+}*/
+
+
+/*#button-2:hover::after {
+	content: 'this text changes on hover';
+	color: #ed3e2d;
+}*/
+
+/* example button 3 is changed only via js */
+
+/* example button 4 */
+/*#button-4.gradient-background {
+	background: linear-gradient(blue, pink);
+	color: transparent;
+}
+*/
+/* example button 5 */
+/*.circle {
+	border-radius: 125px;
+}*/
+
+/* example button 6 */
+/*#button-6{
+	transition: none;
+}*/
+
+/*.break{
+	clip-path: polygon(28% 19%, 51% 1%, 70% 34%, 96% 31%, 87% 50%, 95% 83%, 78% 90%, 45% 99%, 45% 80%, 20% 75%, 0% 69%, 5% 43%);
+	transition: 500ms ease;
+}*/
