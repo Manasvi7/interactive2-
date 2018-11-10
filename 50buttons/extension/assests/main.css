@@ -3,16 +3,21 @@
 	padding: 0px;
 }
 
-/*body{
-	background-color: orange;
-}*/
+
+
+body{
+
+
+	/*background-color: orange;*/
+
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
 .q1{
 	background-image: linear-gradient(to right, orange, violet); 
 	
 }
-
-
-
 
 
 
@@ -30,30 +35,36 @@
 	cursor: pointer;
 }
 
- 
+
 
 #button-1{
 	transition: none;
-	position: absolute;
+/*	position: absolute;
 	top: 50px;
-	left: 70px;
+	left: 70px;*/
+	background-color: lightblue;
 }
 
 
 #button-2{
 	transition: none;
-	position: absolute;
+	/*position: absolute;
 	top: -10px;
-	left: 97px;
+	left: 97px;*/
+	background-color: lightblue;
 
 }
 
+
+
 #button-3{
 	transition: none;
-	position: absolute;
+/*	position: absolute;
 	top: -10px;
 	left: 97px;
+*/
 
+     background-color: lightblue;
 }
 
 
