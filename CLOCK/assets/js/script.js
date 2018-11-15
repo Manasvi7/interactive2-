@@ -14,12 +14,12 @@ $(document).ready(function(){
         var d = new Date();
         
         // get hours, minutes, and seconds
-        var h = addZero(d.getHours());
+        var h = (d.getHours());
         var m = addZero(d.getMinutes());
         var s = addZero(d.getSeconds());
         
         // update the clock's text
-        // $('#clock').html(h + ":" + m + ":" + s);
+        // $('.tri8').html(h + ":" + m + ":" + s);
 
         // rotate clock based on the minute
         $('#clock').css('transform', 'rotate('+ s * 6 +'deg');
@@ -29,9 +29,20 @@ $(document).ready(function(){
         $('.tri4').css('transform', 'rotate('+ s * 107 +'deg');
         $('.tri5').css('transform', 'rotate('+ s * 38 +'deg');
         $('.tri6').css('transform', 'rotate('+ s * 10 +'deg');
-        $('.tri7').css('transform', 'rotate('+ s * 2 +'deg');
+        $('.tri7').css('transform', 'rotate('+ s * 1000 +'deg');
         $('.tri8').css('transform', 'rotate('+ s * 75 +'deg');
         $('.tri9').css('transform', 'rotate('+ s * 90 +'deg');
+        $('.tri10').css('transform', 'rotate('+ s * 60 +'deg');
+        $('.tri11').css('transform', 'rotate('+ s * 56 +'deg');
+        $('.tri12').css('transform', 'rotate('+ s * 17 +'deg');
+        $('.tri13').css('transform', 'rotate('+ s * 61 +'deg');
+        $('.tri14').css('transform', 'rotate('+ s * 90 +'deg');
+        $('.tri15').css('transform', 'rotate('+ s * 100 +'deg');
+        $('.tri16').css('transform', 'rotate('+ s * 500 +'deg');
+        $('.tri17').css('transform', 'rotate('+ s * 346 +'deg');
+        $('.tri18').css('transform', 'rotate('+ s * 756 +'deg');
+        $('.tri19').css('transform', 'rotate('+ s * 576 +'deg');
+
 
 
 

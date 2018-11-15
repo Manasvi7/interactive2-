@@ -2,6 +2,7 @@ body {
 	background: orange;	
 	color: white;
 	font-family: monaco;
+	font-size: 12px;
 
 	display: flex;
 	align-items: center;
@@ -30,6 +31,7 @@ body {
 	border: 4px solid white;
 	width: 300px;
 	height: 300px;
+	position: absolute;
 	display: flex;
 	align-items: center;
   	justify-content: center;
@@ -123,10 +125,118 @@ body {
 
 }
 
+.tri10{
+	border: 4px solid white;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+}
+
+.tri11{
+	border: 4px solid white;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+}
+
+.tri12{
+	border: 4px solid white;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+}
+
+.tri13{
+	border: 4px solid white;
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+}
 
 
+.tri14{
+	border: 4px solid white;
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+}
+
+.tri15{
+	border: 4px solid white;
+	width: 1000px;
+	height: 1000px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+}
 
 
+.tri16{
+	border: 4px solid white;
+	width: 1200px;
+	height: 1200px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+}
+
+
+.tri17{
+	border: 4px solid white;
+	width: 1400px;
+	height: 1400px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+}
+
+.tri18{
+	border: 4px solid white;
+	width: 1600px;
+	height: 1600px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+}
+
+.tri19{
+	border: 4px solid white;
+	width: 1800px;
+	height: 1800px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+
+}
 
 /*.clock {
   border-radius: 50%;
