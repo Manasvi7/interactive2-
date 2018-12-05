@@ -1,0 +1,189 @@
+body{
+  background-color: black;
+  transition: all 30s ease;
+}
+
+@font-face {
+font-family: Shagadelic;
+src: url('VICTM___.otf') format('opentype');
+}
+
+.c1{
+  font-family: 'Shagadelic', Arial;
+  font-weight: bold;
+  color: white;
+  font-size:207pt;
+  position: absolute;
+  left: 820px;
+  top: -345px;
+  z-index: 0px;
+  text-shadow: 2px 2px 5px white;
+
+
+}
+
+.c1 {
+    -webkit-animation: rotation 90s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.c2{
+
+  font-family: 'Shagadelic', Arial;
+  font-weight: bold;
+  color: white;
+  font-size: 130pt;
+  z-index: 10000px;
+  position: absolute;
+  left: 820px;
+  top: 21px;
+  text-shadow: 2px 2px 5px white;
+  
+}
+
+
+
+.c2{
+     -webkit-animation: rotation 70s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.c3{
+
+  font-family: 'Shagadelic', Arial;
+  font-weight: bold;
+  color: white;
+  font-size: 48pt;
+  z-index: 10000px;
+  position: absolute;
+  left: 820px;
+  top: 292px;
+  z-index: 1000000px;
+  text-shadow: 2px 2px 5px white;
+  
+}
+
+
+
+
+.c3{
+     -webkit-animation: rotation 50s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.c4{
+
+  font-family: 'Shagadelic', Arial;
+  font-weight: bold;
+  color: white;
+  font-size: 32pt;
+  z-index: 10000px;
+  position: absolute;
+  left: 820px;
+  top: 377px;
+  z-index: 1000000px;
+  text-shadow: 2px 2px 5px white;
+  
+}
+
+
+
+
+.c4{
+     -webkit-animation: rotation 40s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.c5{
+
+  font: Rockwell;
+  font-weight: bold;
+  color: white;
+  font-size: 19pt;
+  z-index: 10000px;
+  position: absolute;
+  left: 820px;
+  top: 3px;
+  z-index: 1000000px;
+  
+}
+
+
+
+
+.c5{
+     -webkit-animation: rotation 5s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.c6{
+
+  font: Rockwell;
+  font-weight: bold;
+  color: white;
+  font-size: 19pt;
+  z-index: 10000px;
+  position: absolute;
+  left: 820px;
+  top: 117px;
+  z-index: 1000000px;
+  
+}
+
+
+
+
+.c6{
+     -webkit-animation: rotation 5s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+}
