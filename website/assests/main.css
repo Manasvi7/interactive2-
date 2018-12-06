@@ -1,11 +1,16 @@
 body{
   background-color: black;
   transition: all 30s ease;
+  overflow-y: hidden;
 }
 
 @font-face {
 font-family: Shagadelic;
 src: url('VICTM___.otf') format('opentype');
+}
+
+a{
+  color: white;
 }
 
 .c1{
@@ -184,6 +189,17 @@ src: url('VICTM___.otf') format('opentype');
     to {
         -webkit-transform: rotate(359deg);
     }
+}
+
+
+p{
+  font-family: sans-serif;
+  font-size: 12pt; 
+  color: white;
+  position: relative;
+  line-height: 3px;
+  top: 90vh;
+
 }
 
 }

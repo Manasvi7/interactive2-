@@ -2,6 +2,11 @@ body{
 	background-color: black;
 	margin: 0px;
 	padding: 0px;
+
+	/*overflow-y: hidden;*/
+	width: 10000px;
+
+	transition: all 3000ms ease;
 }
 
 @font-face {
@@ -9,18 +14,82 @@ font-family: Shagadelic;
 src: url('VICTM___.otf') format('opentype');
 }
 
+.item1, .item2, .item3, .c2 p, .c3, .c3 p{
+	display: inline-block;
+}
+/*
+.item1 , .item2 , .item3: activate{
+	 mix-blend-mode: multiply;
+    filter: grayscale();
+
+}*/
 
 
 
-.item1 img {
-    width: 40%;
-    max-height: 100vh ;
-    position: absolute;
-    right: 300px; 
+
+.circle {
+      width: 30px;
+      height: 30px;
+      background: white;
+      border-radius: 100%;
+      position: fixed;
+      opacity: 0.5;
+      top: 40px;
+      left: 50px;
+      z-index: 10000000;
+
+
+
+    }
+
+
+
+.c3{
+  font-family: sans-serif;
+  font-weight: normal; 
+  /*text-shadow: 2px 2px 5px white;*/
+  color: white;
+  z-index: 10000000px;
+  position: relative;
+  /*left: 5000px;
+  top: -250px;*/
+ /* padding: 0px;
+  margin: 0px;*/
+  width: 100vw;
+  min-width: 1400px;
+  max-width: 1600px;
+  height: 100vh;
+
+  display: block;
+  float: left;
+  margin: 0px;
+  padding: 50px 100px;
+  box-sizing: border-box;
+  /*max-height: 100vh;*/
+ /* top: 200px;`*/
+  
+
+}
+
+.c3 p {
+	font-size: 37px;
+	line-height: 50px;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: 10px;
+	left: 0px;
+}
+
+.text {
+	display: inline-block;
+	position: relative;
+
+	width: 1000px;
+	height: 100vh;
 }
 
 .name1 {
-	/*font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; */
 	font-family: 'Shagadelic', Arial;
 	font-weight: bold;
 	font-size: 86px;
@@ -29,22 +98,7 @@ src: url('VICTM___.otf') format('opentype');
 	left: 161px;
 	top: 60vh;
 	text-shadow: 2px 2px 5px white;
-	
-	/*transform: scaleY(18.5) scaleX(3.5);*/
 }
-/*
-.curve {
-	font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; 
-	font-weight: bold;
-	font-size: 18px;
-	color: red;
-	position: absolute;
-	left: 350px;
-	top: 75vh;
-
-	
-	transform: scaleY(20.5) scaleX(3.5);
-}*/
 
 .date1{
 	font-family: 'Shagadelic', Arial;
@@ -54,18 +108,54 @@ src: url('VICTM___.otf') format('opentype');
 	left: 179px;
 	top: 72vh;
 	text-shadow: 2px 2px 5px white;
-	/*transform: scaleY(20.5) scaleX(3.5);
-*/
+}
+
+.item1 img {
+    width: auto;
+    height: 100vh ;
+    display: inline-block;
+   /* mix-blend-mode: multiply;
+    filter: grayscale();*/
 }
 
 
-.item2 img {
-    width: 40%;
-    max-height: 100vh ;
+
+
+/*.item1 img {
+    width: auto;
+    height: 100vh ;
     position: absolute;
     right: 300px; 
-    left: 2483px;
-    text-shadow: 2px 2px 5px white;
+}
+
+.name1 {
+	font-family: 'Shagadelic', Arial;
+	font-weight: bold;
+	font-size: 86px;
+	color: white;
+	position: absolute;
+	left: 161px;
+	top: 60vh;
+	text-shadow: 2px 2px 5px white;
+}
+
+.date1{
+	font-family: 'Shagadelic', Arial;
+	font-size: 36px;
+	color: white;
+	position: absolute;
+	left: 179px;
+	top: 72vh;
+	text-shadow: 2px 2px 5px white;
+}
+*/
+
+.item2 img {
+    width: auto;
+    height: 100vh ;
+    display: inline-block;
+ /*   mix-blend-mode: multiply;
+    filter: grayscale();*/
 }
 
 .name2 {
@@ -73,8 +163,8 @@ src: url('VICTM___.otf') format('opentype');
 	font-weight: bold;
 	font-size: 86px;
 	color: white;
-	position: relative;
-	left: 1750px;
+	position: absolute;
+	left: 179px;
 	top: 60vh;
 	text-shadow: 2px 2px 5px white;
 
@@ -85,20 +175,18 @@ src: url('VICTM___.otf') format('opentype');
 	font-size: 36px;
 	color: white;
 	position: absolute;
-	left: 1750px;
+	left: 179px;
 	top: 72vh;
 	text-shadow: 2px 2px 5px white;
 
 }
 
 .item3 img {
-    width: 40%;
-    max-height: 100vh ;
-    position: absolute;
-    right: 300px; 
-    left: 4042px;
-    top: 0px;
-    text-shadow: 2px 2px 5px white;
+    width: auto;
+    height: 100vh ;
+    display: inline-block;
+  /*  mix-blend-mode: multiply;
+    filter: grayscale();*/
 }
 
 .name3 {
@@ -106,9 +194,9 @@ src: url('VICTM___.otf') format('opentype');
 	font-weight: bold;
 	font-size: 86px;
 	color: white;
-	position: relative;
-	left: 3536px;
-	top: 47vh;
+	position: absolute;
+	left: 179px;
+	top: 60vh;
 	text-shadow: 2px 2px 5px white;
 
 }
@@ -118,7 +206,7 @@ src: url('VICTM___.otf') format('opentype');
 	font-size: 36px;
 	color: white;
 	position: absolute;
-	left: 3551px;
+	left: 179px;
 	top: 72vh;
 	text-shadow: 2px 2px 5px white;
 
@@ -126,34 +214,51 @@ src: url('VICTM___.otf') format('opentype');
 
 .c2{
 
-  font-family: 'sans-serif';
-  font-weight: regular; 
-  text-shadow: 2px 2px 5px white;
+  font-family: sans-serif;
+  font-weight: normal; 
+  /*text-shadow: 2px 2px 5px white;*/
   color: white;
-  font-size: 40pt;
   z-index: 10000000px;
   position: relative;
-  left: 5000px;
-  top: -250px;
+  /*left: 5000px;
+  top: -250px;*/
  /* padding: 0px;
   margin: 0px;*/
-  max-width: 90%: 
-  
+  width: 100vw;
+  min-width: 1400px;
+  max-width: 1600px;
+  height: 100vh;
 
- 
+  display: block;
+  float: right;
+  margin: 0px;
+  left: -400px;
+  padding: 50px 100px;
+  box-sizing: border-box;
   /*max-height: 100vh;*/
  /* top: 200px;`*/
   
 }
 
-.item4 img {
-    width: 10%;
+.c2 p {
+	font-size: 40px;
+	line-height: 50px;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+.c2 img {
+    width: 25%;
   /*  max-height: 100vh ;*/
     position: absolute;
 /*    right: 300px; */
-    left: 6500px;
-    top: 770px;
+    right: 10px;
+    bottom: 10px;
 }
+
 
 /*.c2{
      -webkit-animation: rotation 5s infinite linear;
