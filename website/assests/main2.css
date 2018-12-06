@@ -3,7 +3,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 
-	/*overflow-y: hidden;*/
+	overflow-y: hidden;
 	width: 10000px;
 
 	transition: all 3000ms ease;
@@ -17,12 +17,11 @@ src: url('VICTM___.otf') format('opentype');
 .item1, .item2, .item3, .c2 p, .c3, .c3 p{
 	display: inline-block;
 }
-/*
-.item1 , .item2 , .item3: activate{
-	 mix-blend-mode: multiply;
-    filter: grayscale();
 
-}*/
+.activate .item1 img , .activate .item2 img , .activate .item3 img{
+    /*filter: grayscale();*/
+	mix-blend-mode: soft-light;
+}
 
 
 

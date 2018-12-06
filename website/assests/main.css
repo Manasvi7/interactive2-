@@ -17,10 +17,10 @@ a{
   font-family: 'Shagadelic', Arial;
   font-weight: bold;
   color: white;
-  font-size:207pt;
+  font-size:160pt;
   position: absolute;
   left: 820px;
-  top: -345px;
+  top: -245px;
   z-index: 0px;
   text-shadow: 2px 2px 5px white;
 
@@ -48,8 +48,8 @@ a{
   font-size: 130pt;
   z-index: 10000px;
   position: absolute;
-  left: 820px;
-  top: 21px;
+  left: 817px;
+  top: -20px;
   text-shadow: 2px 2px 5px white;
   
 }
@@ -74,11 +74,11 @@ a{
   font-family: 'Shagadelic', Arial;
   font-weight: bold;
   color: white;
-  font-size: 48pt;
+  font-size: 55pt;
   z-index: 10000px;
   position: absolute;
   left: 820px;
-  top: 292px;
+  top: 240px;
   z-index: 1000000px;
   text-shadow: 2px 2px 5px white;
   
@@ -105,11 +105,11 @@ a{
   font-family: 'Shagadelic', Arial;
   font-weight: bold;
   color: white;
-  font-size: 32pt;
+  font-size: 42pt;
   z-index: 10000px;
   position: absolute;
-  left: 820px;
-  top: 377px;
+  left: 822px;
+  top: 330px;
   z-index: 1000000px;
   text-shadow: 2px 2px 5px white;
   
@@ -194,7 +194,19 @@ a{
 
 p{
   font-family: sans-serif;
+  font-size: 20pt; 
+/*  font-style: italic;*/
+  color: white;
+  position: relative;
+  line-height: 3px;
+  top: 90vh;
+
+}
+
+.ST{
+  font-family: sans-serif;
   font-size: 12pt; 
+  font-style: italic;
   color: white;
   position: relative;
   line-height: 3px;

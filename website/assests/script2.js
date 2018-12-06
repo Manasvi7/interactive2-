@@ -12,6 +12,8 @@ $(document).ready(function(){
 
 
 $(".circle").click(function(){
+    $('body').addClass('activate');
+
     // add a zero to times below 10
     function addZero(i) {
         if (i < 10) {
