@@ -1,0 +1,106 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.item1 img {
+    width: 40%;
+    max-height: 100vh ;
+    position: absolute;
+    right: 300px; 
+}
+
+.name1 {
+	font: Rockwell;
+	font-weight: bold;
+	font-size: 38px;
+	color: red;
+	position: absolute;
+	left: 350px;
+	top: 75vh;
+}
+
+.date1{
+	font: Rockwell;
+	font-size: 28px;
+	color: red;
+	position: absolute;
+	left: 350px;
+	top: 80vh;
+
+}
+
+
+.item2 img {
+    width: 40%;
+    max-height: 100vh ;
+    position: absolute;
+    right: 300px; 
+    left: 2200px;
+}
+
+.name2 {
+	font: Rockwell;
+	font-weight: bold;
+	font-size: 38px;
+	color: red;
+	position: relative;
+	left: 1750px;
+	top: 75vh;
+
+}
+
+.date2{
+	font: Rockwell;
+	font-size: 28px;
+	color: red;
+	position: absolute;
+	left: 1750px;
+	top: 80vh;
+
+}
+
+.item3 img {
+    width: 40%;
+    max-height: 100vh ;
+    position: absolute;
+    right: 300px; 
+    left: 3500px;
+}
+
+.name3 {
+	font: Rockwell;
+	font-weight: bold;
+	font-size: 38px;
+	color: red;
+	position: relative;
+	left: 3181px;
+	top: 71vh;
+
+}
+
+.date3{
+	font: Rockwell;
+	font-size: 28px;
+	color: red;
+	position: absolute;
+	left: 3180px;
+	top: 81vh;
+
+}
+
+/*.about{
+	font: sans-serif;
+	font-weight: bold;
+	font-size: 38px;
+	color: red;
+	position: relative;
+	left: 4181px;
+	top: 71vh;
+
+}*/
+
+
+
+
